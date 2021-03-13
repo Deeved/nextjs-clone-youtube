@@ -75,7 +75,7 @@ function NavBar(){
             <ListItem
               key={item.id}
               button
-              className={{root: classes.listItem}}
+              classes={{root: classes.listItem}}
               selected={isSelected(item)} 
             >
               <ListItemIcon>
@@ -97,7 +97,7 @@ function NavBar(){
             <ListItem
               key={item.id}
               button
-              className={{root: classes.listItem}}
+              classes={{root: classes.listItem}}
               selected={isSelected(item)} 
             >
               <ListItemIcon>
